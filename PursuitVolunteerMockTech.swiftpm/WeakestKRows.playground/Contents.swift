@@ -42,14 +42,14 @@ print(weakestRow(matrix: [[1,1,0,0,0],
               [1,0,0,0,0],
               [1,1,0,0,0],
               [1,1,1,1,1]], k: 3))
-
 print(weakestRow(matrix: [[1,0,0,0],
               [1,1,1,1],
               [1,0,0,0],
               [1,0,0,0]], k: 2))
 
 // Test
-
+//import XCTest
+//
 //class SolutionTest: XCTestCase {
 //
 //  static var allTests = [("test examples", testEverything)]
@@ -70,4 +70,3 @@ print(weakestRow(matrix: [[1,0,0,0],
 //XCTMain([
 //  testCase(SolutionTest.allTests)
 //])
-//
